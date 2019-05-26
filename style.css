@@ -24,16 +24,22 @@ p.copyright{
 	display: none;
 }
 /* Regler for  vores onepage navigation*/
-.nav{
 
-}
 /* Regler for den highligtede side, som er den vi "er" paa */
 .highlight{
 	background-color: #BF0000;
 }
+/* Regler for override af elementor */
 .elementor-container{
 	max-width: 80%!important;
 }
 .elementor-container .elementor-column-gap-default{
 	max-width: 100% !important;
+}
+/* Regler for footer */
+.widgets-row .col-sm-4{
+	border-left: none;
+}
+.widget_media_image{
+	text-align: center;
 }
