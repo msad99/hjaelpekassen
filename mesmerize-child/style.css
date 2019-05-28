@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Theme Name: Mesmerize Child
+Theme URL: http://Errors.dk/project/hjaelpekassen/
+Description: Mesmerize Child Theme
+Author: Emil Gade, Phillip Stæhr, Lukas Friis Haastrup
+Author URL: http://Errors.dk/project/hjaelpekassen/
+Template: mesmerize
+Version: 1.0.0
+Text Domain: mesmerize-child
+*/
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/l?subset_id=2&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/d?subset_id=2&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/a?subset_id=2&fvd=i2&v=3") format("opentype");
+font-style:italic;font-weight:200;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/153707/00000000000000003b9af336/27/l?subset_id=2&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/153707/00000000000000003b9af336/27/d?subset_id=2&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/153707/00000000000000003b9af336/27/a?subset_id=2&fvd=n2&v=3") format("opentype");
+font-style:normal;font-weight:200;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/a41ba1/00000000000000003b9af338/27/l?subset_id=2&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/a41ba1/00000000000000003b9af338/27/d?subset_id=2&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/a41ba1/00000000000000003b9af338/27/a?subset_id=2&fvd=n3&v=3") format("opentype");
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/72bd45/00000000000000003b9af337/27/l?subset_id=2&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/72bd45/00000000000000003b9af337/27/d?subset_id=2&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/72bd45/00000000000000003b9af337/27/a?subset_id=2&fvd=i3&v=3") format("opentype");
+font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/a00089/00000000000000003b9af339/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a00089/00000000000000003b9af339/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a00089/00000000000000003b9af339/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/99db4b/00000000000000003b9af33c/27/l?subset_id=2&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/99db4b/00000000000000003b9af33c/27/d?subset_id=2&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/99db4b/00000000000000003b9af33c/27/a?subset_id=2&fvd=n5&v=3") format("opentype");
+font-style:normal;font-weight:500;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/bef56a/00000000000000003b9af33b/27/l?subset_id=2&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/bef56a/00000000000000003b9af33b/27/d?subset_id=2&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/bef56a/00000000000000003b9af33b/27/a?subset_id=2&fvd=i5&v=3") format("opentype");
+font-style:italic;font-weight:500;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/64d729/00000000000000003b9af33d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/64d729/00000000000000003b9af33d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/64d729/00000000000000003b9af33d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/248d33/00000000000000003b9af33e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/248d33/00000000000000003b9af33e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/248d33/00000000000000003b9af33e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/b95d4d/00000000000000003b9af33f/27/l?subset_id=2&fvd=i8&v=3") format("woff2"),url("https://use.typekit.net/af/b95d4d/00000000000000003b9af33f/27/d?subset_id=2&fvd=i8&v=3") format("woff"),url("https://use.typekit.net/af/b95d4d/00000000000000003b9af33f/27/a?subset_id=2&fvd=i8&v=3") format("opentype");
+font-style:italic;font-weight:800;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/d882ec/00000000000000003b9af340/27/l?subset_id=2&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/d882ec/00000000000000003b9af340/27/d?subset_id=2&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/d882ec/00000000000000003b9af340/27/a?subset_id=2&fvd=n8&v=3") format("opentype");
+font-style:normal;font-weight:800;
+}
+
+@font-face {
+font-family:"turnip";
+src:url("https://use.typekit.net/af/443139/00000000000000003b9af33a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/443139/00000000000000003b9af33a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/443139/00000000000000003b9af33a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+/* Fjerner overskydende fra Wordpress Temaet */
+div.header-homepage{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+#mainmenu_container{
+	display: none !important;
+}
+.navigation-bar.coloured-nav{
+	background-color: transparent;
+}
+/* Gemmer copyright information */
+p.copyright{
+	display: none;
+}
+/* Regler for  vores onepage navigation*/
+.nav {
+	background-color: #E26E40;
+	cursor: pointer;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.noselect img{
+	 -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/* Regler for den highligtede side, som er den vi "er" paa */
+.highlight{
+	background-color: #BF2026;
+}
+/* Regler for override af elementor */
+.elementor-container{
+	max-width: 80%!important;
+}
+.elementor-container .elementor-column-gap-default{
+	max-width: 100% !important;
+}
+body{
+	font-family: turnip, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', "serif" !important;
+	background-image: url(http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/abstract-sky-texture-purple-atmosphere-green-1402034-pxhere.com_.jpg);
+	background-attachment: local, scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+p.align{
+	text-align: justify;
+}
+.elementor-widget-text-editor{
+	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+.elementor-widget-text-editor p{
+	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+.elementor-widget-heading .elementor-heading-title{
+	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+body p{
+		font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+h4{
+	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
+}
+.spoergsmaal{
+	margin-left: 25%;
+}
+.tekst p, .tekst span, .tekst b{
+	font-size: 16px !important;
+	line-height: 1.4em;
+}
+.footer-simple .footer-content{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	border-top: none !important;
+}
+.main_menu_col{
+	display: none;
+}
+.homepage-header-image{
+	display: none;
+}
+.header-homepage{
+	background-color: transparent !important;
+}
+@media only screen and (max-width: 425px){
+	.spoergsmaal{
+		margin-left: 0;
+	}
+}
