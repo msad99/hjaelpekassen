@@ -28,14 +28,14 @@ window.onload = function () {
 			for (i = 0; i < highlight.length; i++) {
 				highlight[i].style.backgroundColor = "rgb(97,41,145)";
 			}
-			logo[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo-Kold.png';
-			logo[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo-Kold.png';
-			vbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1.png';
-			vbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1.png';
-			mbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-1.png';
-			mbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-1.png';
-			hbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-2.png';
-			hbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-2.png';
+			logo[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo-Kold.png';
+			logo[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo-Kold.png';
+			vbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1.png';
+			vbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1.png';
+			mbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-1.png';
+			mbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-1.png';
+			hbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-2.png';
+			hbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-2.png';
 			heat = 0;
 
 		} else {
@@ -45,14 +45,14 @@ window.onload = function () {
 			for (i = 0; i < highlight.length; i++) {
 				highlight[i].style.backgroundColor = "rgb(191,32,38)";
 			}
-			logo[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo.png';
-			logo[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo.png';
-			vbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-4.png';
-			vbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-4.png';
-			mbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-3.png';
-			mbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-3.png';
-			hbb[0].src = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-5.png';
-			hbb[0].srcset = 'http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-5.png';
+			logo[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo.png';
+			logo[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Hjaelpekassen-Logo.png';
+			vbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-4.png';
+			vbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-4.png';
+			mbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-3.png';
+			mbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-3.png';
+			hbb[0].src = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-5.png';
+			hbb[0].srcset = 'https://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/Artboard-1-5.png';
 			heat = 1;
 		}
 		
@@ -71,7 +71,6 @@ window.onload = function () {
 				jQuery(ren[i]).hide();
 				jQuery(sam[i]).hide();
 				jQuery(fors[i]).hide();
-				//message for at vise at vi har kørt scriptet.
 			}
 			mv.scrollIntoView(true);
 		}

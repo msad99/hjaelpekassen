@@ -10,7 +10,7 @@ Template: mesmerize
 Version: 1.0.0
 Text Domain: mesmerize-child
 */
-
+/* Henter vores font i dens mange versioner */
 @font-face {
 font-family:"turnip";
 src:url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/l?subset_id=2&fvd=i2&v=3") format("woff2"),url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/d?subset_id=2&fvd=i2&v=3") format("woff"),url("https://use.typekit.net/af/dbbfde/00000000000000003b9af335/27/a?subset_id=2&fvd=i2&v=3") format("opentype");
@@ -102,24 +102,6 @@ p.copyright{
 	background-color: #E26E40;
 	cursor: pointer;
 }
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-.noselect img{
-	 -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
 /* Regler for den highligtede side, som er den vi "er" paa */
 .highlight{
 	background-color: #BF2026;
@@ -131,15 +113,13 @@ p.copyright{
 .elementor-container .elementor-column-gap-default{
 	max-width: 100% !important;
 }
-body{
-	font-family: turnip, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', "serif" !important;
-	background-image: url(http://errors.dk/project/hjaelpekassen/wp-content/uploads/2019/05/abstract-sky-texture-purple-atmosphere-green-1402034-pxhere.com_.jpg);
-	background-attachment: local, scroll;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+/* aligner tekst */
 p.align{
 	text-align: justify;
+}
+/* sørger for at vores font bliver brugt */
+body{
+	font-family: turnip, Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', "serif" !important;
 }
 .elementor-widget-text-editor{
 	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
@@ -156,18 +136,17 @@ body p{
 h4{
 	font-family: turnip, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" !important;
 }
+/* centrere vores wpform */ 
 .spoergsmaal{
 	margin-left: 25%;
 }
-.tekst p, .tekst span, .tekst b{
-	font-size: 16px !important;
-	line-height: 1.4em;
-}
+/* sletter vores temas footer, da vi har en custom */
 .footer-simple .footer-content{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 	border-top: none !important;
 }
+/* skjuler de unødvendige elementer i vores header */
 .main_menu_col{
 	display: none;
 }
@@ -178,6 +157,7 @@ h4{
 	background-color: transparent !important;
 }
 @media only screen and (max-width: 425px){
+	/* på mobilen er der ikk behov for marginen */ 
 	.spoergsmaal{
 		margin-left: 0;
 	}
